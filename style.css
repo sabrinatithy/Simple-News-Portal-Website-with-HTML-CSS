@@ -1,0 +1,141 @@
+body,ul {margin: 0; padding: 0}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top_header {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 0 30px #ec5454;
+}
+.top_header .logo_area {
+    width: 100px;
+    float: left;
+}
+.top_header .header_advert {
+    width: 1182px;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+}
+.top_header .logo_area a img {
+    width: 100%;
+}
+.header_advert a img {
+    width: 720px;
+}
+
+/*css for menu*/
+
+.menu_bar {
+    width: 100%;
+    background: #ec5454;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+.menu_bar ul li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu_bar ul li a {
+    color: aliceblue;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.menu_bar li a:hover {
+    border-bottom: 2px solid #ddd;
+}
+.mainbody {
+    display: block;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.bady_content {
+    width: 900px;
+    float: left;
+    margin-right: 10px;
+}
+.news_content {
+    padding: 10px;
+    box-shadow: 0 0 30px #e9e1e1;
+    margin-right: 6px;
+    margin-bottom: 20px;
+}
+a.read_more {
+    margin: 35%;
+}
+.sidebar {
+    width: 400px;
+    float: left;
+    padding-top: 10px;
+}
+.news-img {
+    width: 300px;
+    float: left;
+    padding-right: 10px;
+}
+.sidebar {
+    width: 400px;
+    float: left;
+    /* background: green; */
+    padding-top: 10px;
+    box-shadow: 0 0 15px #cfb4b4fa;
+    margin-right: 10px;
+}
+
+.widget {
+    padding: 10px;
+    box-shadow: 0 0 30px #e9e1e1;
+    margin-right: 6px;
+    margin-bottom: 20px;
+}
+.widget h2 {
+    text-align: center;
+    background: red;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.widget ul li {
+    padding: 5px 3px;
+    border-bottom: 1px solid #ddd;
+}
+img {
+    width: 100%;
+}
+
+.top_footer {
+    text-align: center;
+}
+.social_icon ul li {
+    display: inline-block;
+}
+.social_icon ul li a {
+    font-size: 30px;
+    color: #544be1;
+    padding: 3px;
+}
+footer {
+    box-shadow: 0 0 20px #cdc1c1;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+}
+.copyright {
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+}
+.developer.credit {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
